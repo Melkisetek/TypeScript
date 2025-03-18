@@ -1,0 +1,18 @@
+------------------En Visual Estudio Code--------------
+Compilar código de TypeScript a JavaScript:
+	1. Abrir una terminal (Ctrl+Shift+ñ).
+	2. proporcionamos el comando tsc y el nombre del archivo con la extension
+	por ejemplo: tsc achivoTypeScript.ts
+
+3. Lo recomendable cuando se trabaja con proyectos lo ideal es utilizar el comando tsc -init
+Esto creará un archivo tsconfig.json en la carpeta raíz de tu proyecto.
+
+¿Qué hace el archivo tsconfig.json?
+Define las opciones del compilador de TypeScript (por ejemplo, la versión de 	ECMAScript, el modo estricto, el directorio de salida).
+
+Especifica qué archivos deben compilarse (o ignorarse).
+
+Permite personalizar la configuración del proyecto.
+
+
+4. Compilar en modo observación "realiza cambios automático" (watch): tsc -w
